@@ -1,0 +1,17 @@
+@import '../variables';
+.s2 {
+    background-color: $beige;
+    flex-wrap: wrap;
+    text-align: center !important;
+    margin: auto;    
+}
+.s2-grp {
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    img {
+        width: 10vw;
+    }
+}

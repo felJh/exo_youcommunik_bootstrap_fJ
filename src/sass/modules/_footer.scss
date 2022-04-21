@@ -1,0 +1,18 @@
+@import '../variables';
+
+footer {
+    background-color: $dark;
+    color: $white;
+}
+
+footer img {
+    margin: 0 .3rem;
+    width: 7vw;
+}
+.foot-top {
+    padding: 2rem;
+}
+.foot-top div {
+    margin: 1rem auto;
+    text-align: center;
+}

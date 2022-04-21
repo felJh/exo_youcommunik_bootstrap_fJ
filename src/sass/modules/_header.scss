@@ -1,0 +1,21 @@
+@import '../variables';
+header {
+    background-color: black;
+    color: $white;
+    font-size: .7rem;
+    text-align: center !important;
+}
+.head-top li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8%;
+    margin: 1rem auto;
+}
+.head-top img {
+    width: 6vw;
+}
+.head-bot {
+    background-color: $blue;
+    padding: 1rem;
+}
